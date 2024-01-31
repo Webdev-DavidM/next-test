@@ -16,13 +16,15 @@
     "prettier:write": "prettier --write \"**/*.{ts,tsx}\"",
     "test": "npm run prettier:check && npm run lint && npm run typecheck && npm run jest",
     "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build"
+    "storybook:build": "storybook build",
+    "prepare": "husky"
   },
   "dependencies": {
     "@mantine/core": "7.4.2",
     "@mantine/hooks": "7.4.2",
     "@next/bundle-analyzer": "^14.0.1",
     "@tabler/icons-react": "^2.40.0",
+    "husky": "^9.0.7",
     "next": "14.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
