@@ -3,6 +3,8 @@ import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeTo
 
 export default function HomePage() {
   console.log('HomePage');
+  console.log('HomePage');
+  console.log('HomePage');
   return (
     <>
       <Welcome />
